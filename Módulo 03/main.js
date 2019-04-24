@@ -51,7 +51,7 @@ Github.getRepositories("rocketseat/dslkvmskv");
 
 // D
 
-const buscaUsuario = async usuario => {
+const buscaUsuario = async user => {
   try {
     const response = await axios.get(`https://api.github.com/users/${user}`);
 
